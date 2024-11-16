@@ -1,0 +1,113 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+body {
+    font-family: "Montserrat", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+}
+
+/* Navbar */
+.navbar {
+    background-color: #FFE1CC;
+}
+
+.nav-link {
+    color: #6C757D;
+    font-size: 1rem;
+}
+
+.nav-link:hover {
+    color: #000;
+}
+
+.btn-signin {
+    background-color: #C53030;
+    color: #fff;
+    padding: 0.5rem 1rem;
+    border-radius: 25px;
+    font-size: 0.9rem;
+}
+
+.btn-signin:hover {
+    background-color: #A12727;
+}
+
+/* Logo */
+.logo-box {
+    background-color: #FAD4D4;
+    padding: 0.5rem 1rem;
+    font-weight: bold;
+    color: #C53030;
+    font-size: 1.5rem;
+    border-radius: 0 20px 0 20px;
+    border: 1px solid rgba(200, 64, 50, 1)
+}
+
+/* Login Form */
+.login-box {
+    background: linear-gradient(24.22deg, rgba(253, 215, 199, 0.9) 24.44%, rgba(252, 191, 138, 0.9) 93.18%);
+    padding: 2rem;
+    max-width: 400px;
+    width: 100%;
+}
+
+h2 {
+    color: #333;
+    font-weight: bold;
+    margin-bottom: 1.5rem;
+}
+
+.forgot-password {
+    color: #C53030;
+    font-size: 0.9rem;
+    text-decoration: none;
+}
+
+.forgot-password:hover {
+    text-decoration: underline;
+}
+
+.btn-login {
+    background-color: #C53030;
+    color: #fff;
+    padding: 0.5rem 1rem;
+    border-radius: 25px;
+    font-size: 1rem;
+}
+
+.btn-login:hover {
+    background-color: #A12727;
+}
+
+.register-link {
+    color: #C53030;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+.register-link:hover {
+    text-decoration: underline;
+}
+
+.bg-nav {
+    background: rgba(246, 190, 142, 0.7);
+}
+
+.link{
+    color: rgb(207, 48, 48);
+}
+
+.text-area{
+    border-radius: 0 10px 0 10px;
+}
+
+.title-form{
+    color: rgb(22, 22, 22);
+}
+
+.signup-box {
+    background: linear-gradient(24.22deg, rgba(253, 215, 199, 0.9) 24.44%, rgba(252, 191, 138, 0.9) 93.18%);
+    padding: 2rem;
+    max-width: 500px;
+    width: 100%;
+}
